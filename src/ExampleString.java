@@ -14,15 +14,20 @@ public class ExampleString {
         String result7 = name2.toLowerCase();
         String result8 = name2.trim();
         String result9 = name2.replace('r', 'm');
-        System.out.println(result);
-        System.out.println(result1);
-        System.out.println(result2);
-        System.out.println(result3);
-        System.out.println(result4);
-        System.out.println(result5);
-        System.out.println(result6);
-        System.out.println(result7);
-        System.out.println(result8);
-        System.out.println(result9);
+        System.out.println(result);  //true
+        System.out.println(result1); //false
+        System.out.println(result2); //8
+        System.out.println(result3); //t
+        System.out.println(result4); //1
+        System.out.println(result5); //false
+        System.out.println(result6); //KATERYNA
+        System.out.println(result7); //kateryna
+        System.out.println(result8); //Kateryna
+        System.out.println(result9); //Katemyna
     }
+
+
+
+
+
 }
