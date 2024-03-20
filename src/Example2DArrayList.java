@@ -15,5 +15,7 @@ ArrayList<ArrayList<String>> groceryList = new ArrayList<>();
         groceryList.add(bakeryList);
         groceryList.add(productList);
         System.out.println(groceryList);
+        System.out.println(groceryList.get(0).get(1));
+
     }
 }
